@@ -105,6 +105,10 @@ SPEC.md             the build spec
 
 ### Where the build differs from SPEC.md
 
+- **Project loading.** The spec reads the TCF file only when the brands file is empty. Some projects
+  publish both, or a brands file with no banner in it, so both files are read in parallel: TCF wins
+  when the brands file has no banner, and when both have banners the wizard says so and starts on
+  the standard banner.
 - **G1 (no Consent Mode step).** The spec says the signals stay denied forever. That holds for the
   types the site writes. The SDK also seeds the types left out of the site's entries, and when the
   banner shown has no Consent Mode step it switches those to granted without a choice. The finding
