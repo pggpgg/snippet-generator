@@ -1,0 +1,228 @@
+{
+  "brands": {
+    "url": "https://static.axept.io/sdk.js",
+    "build": "2026-10-28T21:27:12.815Z",
+    "settings": [
+      {
+        "name": "clientId"
+      },
+      {
+        "name": "tokenInstance"
+      },
+      {
+        "name": "cookiesVersion"
+      },
+      {
+        "name": "sdkVersion"
+      },
+      {
+        "name": "dataLayerName",
+        "default": "(constant)"
+      },
+      {
+        "name": "triggerGTMEvents",
+        "default": true
+      },
+      {
+        "name": "signalEssential",
+        "default": false
+      },
+      {
+        "name": "consentDefaultAlreadySent",
+        "default": false
+      },
+      {
+        "name": "consentUpdateAlreadySent",
+        "default": false
+      },
+      {
+        "name": "jsonCookieName",
+        "default": "(constant)"
+      },
+      {
+        "name": "authorizedVendorsCookieName",
+        "default": "(constant)"
+      },
+      {
+        "name": "allVendorsCookieName",
+        "default": "(constant)"
+      },
+      {
+        "name": "gppCookieName",
+        "default": "(constant)"
+      },
+      {
+        "name": "userCookiesDuration",
+        "default": 190
+      },
+      {
+        "name": "cookiesConfig"
+      },
+      {
+        "name": "userCookiesDomain"
+      },
+      {
+        "name": "userCrossCookiesDomain"
+      },
+      {
+        "name": "userCookiesSameSite"
+      },
+      {
+        "name": "userCookiesSecure",
+        "default": true
+      },
+      {
+        "name": "compressUserCookie",
+        "default": false
+      },
+      {
+        "name": "openCookiesWidgetIfVendorsMismatch",
+        "default": false
+      },
+      {
+        "name": "mountClassName",
+        "default": "axeptio_mount"
+      },
+      {
+        "name": "apiUrl",
+        "default": "https://api.axept.io/v1"
+      },
+      {
+        "name": "postConsentUrl",
+        "default": "https://api.axept.io/v1/app"
+      },
+      {
+        "name": "configUrl",
+        "default": "https://client.axept.io/projectconfigurations/brands"
+      },
+      {
+        "name": "directConfigUrl"
+      },
+      {
+        "name": "proxyBaseUrl"
+      },
+      {
+        "name": "platform"
+      },
+      {
+        "name": "googleConsentMode"
+      },
+      {
+        "name": "useDocumentLang"
+      },
+      {
+        "name": "metadataPrefix",
+        "default": "$$"
+      },
+      {
+        "name": "restrictedMode",
+        "default": false
+      },
+      {
+        "name": "appSDKMode",
+        "default": false
+      },
+      {
+        "name": "rejectCookiesOnInit"
+      },
+      {
+        "name": "countryCode"
+      },
+      {
+        "name": "subdivisionCode"
+      },
+      {
+        "name": "reglementation"
+      },
+      {
+        "name": "isFallback",
+        "default": false
+      },
+      {
+        "name": "userLanguage"
+      }
+    ],
+    "directReads": [
+      "cookiesVersion",
+      "proxyBaseUrl"
+    ],
+    "anchors": {
+      "getComoV2DefaultSettings(){": true,
+      "pushCoMoV2DefaultSettings": true,
+      "liftSeededDefaultWhenConsentModeOff": true,
+      "applyImplicitGrantedConsent": true,
+      "applyGoogleConsentModeFlagsFromSettings(){": true,
+      "updateGoogleConsentModeOnStart": true,
+      "checkGtagConfigPriorToCoMoV2": true,
+      "loadCrossDomains(e){": true,
+      "initAxeptioCallbackGlobal": true,
+      "trigger(\"ready\")": true,
+      "cookies:complete": true,
+      "hideAxeptioButton": true,
+      "openAxeptioCookies": true,
+      "getToken": true,
+      "useDocumentLang": true,
+      "browser_locale": true,
+      "custom_function": true
+    }
+  },
+  "tcf": {
+    "url": "https://static.axept.io/tcf/sdk.js",
+    "release": "1.5.0",
+    "settings": [
+      {
+        "name": "projectId"
+      },
+      {
+        "name": "clientId"
+      },
+      {
+        "name": "configurationId"
+      },
+      {
+        "name": "cookiesVersion"
+      },
+      {
+        "name": "appSDKMode"
+      },
+      {
+        "name": "dataLayerName"
+      },
+      {
+        "name": "triggerGTMEvents"
+      },
+      {
+        "name": "googleConsentMode"
+      },
+      {
+        "name": "userCookiesDomain"
+      },
+      {
+        "name": "userCookiesSameSite"
+      },
+      {
+        "name": "userCookiesSecure"
+      },
+      {
+        "name": "userCrossCookiesDomain"
+      },
+      {
+        "name": "metadataPrefix"
+      }
+    ],
+    "directReads": [
+      "clientId",
+      "nonce",
+      "projectId",
+      "sdkVersion"
+    ],
+    "anchors": {
+      "openAxeptioCookies": true,
+      "_axcb": true,
+      "cookies:complete": true,
+      "getToken": false,
+      "hideAxeptioButton": false,
+      "userCrossCookiesDomain": true
+    }
+  }
+}
