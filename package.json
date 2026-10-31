@@ -1,0 +1,19 @@
+{
+  "name": "snippet-generator",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Generate the optimal Axeptio direct <script> integration for a site: copy-ready code, an annotated install guide and an audit of the snippet already in place.",
+  "type": "module",
+  "scripts": {
+    "serve": "node tests/serve.mjs",
+    "test": "playwright test",
+    "sdk:snapshot": "node scripts/sdk-drift.mjs --write sdk-snapshot.json",
+    "sdk:check": "node scripts/sdk-drift.mjs --compare sdk-snapshot.json --out drift"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0"
+  }
+}
