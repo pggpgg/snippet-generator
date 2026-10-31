@@ -1,0 +1,26 @@
+{
+  "projectId": "69bf231ed26c858445ab2d62",
+  "projectName": "Dev",
+  "publishedAt": "2026-08-10T21:32:41.407Z",
+  "isDomainRestrictionEnabled": false,
+  "verifiedDomains": [],
+  "hasWebSdkTcf": true,
+  "hasAppSdkTcf": false,
+  "consents": [
+    {
+      "identifier": "69bf2f65d26c858445ab2d7d",
+      "name": "dev-fr-CA-QC",
+      "language": "fr",
+      "country": "CA",
+      "subdivision": "QC",
+      "vendors": [],
+      "purposes": [],
+      "google_consent_mode": {
+        "ads_data_redaction": true,
+        "url_passthrough": true
+      },
+      "google_additional_consent": true,
+      "cmp_version": 1
+    }
+  ]
+}

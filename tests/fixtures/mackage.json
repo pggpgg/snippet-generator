@@ -1,0 +1,809 @@
+{
+  "projectId": "691245e5b48e4a03c7b9c5c5",
+  "projectName": "Mackage all countries",
+  "publishedAt": "2026-09-25T13:13:39.056Z",
+  "hasWebSdkBrands": true,
+  "isDomainRestrictionEnabled": false,
+  "verifiedDomains": [],
+  "client": {
+    "cookiesSettings": {
+      "geolocation": true,
+      "geolocationFallbackConfigId": "6913a674b1b71620d7b06fb7"
+    }
+  },
+  "cookies": [
+    {
+      "identifier": "691245e5b48e4a03c7b9c5c8",
+      "name": "CA-QC EN",
+      "title": "CA-QC EN",
+      "language": "en",
+      "country": [
+        "CA"
+      ],
+      "subdivision": [
+        "CA-QC"
+      ],
+      "regulation": "loi25",
+      "published": true,
+      "isLive": true,
+      "googleConsentMode": {
+        "display": true,
+        "displayIllustrations": false,
+        "position": "second",
+        "ads_data_redaction": false,
+        "url_passthrough": false
+      },
+      "settings": {
+        "displayMode": "show",
+        "consentMode": "opt_in",
+        "hideAxeptioButton": true
+      },
+      "steps": [
+        {
+          "name": "welcome",
+          "layout": "welcome",
+          "vendors": []
+        },
+        {
+          "name": "info",
+          "layout": "info",
+          "vendors": [
+            {
+              "name": "google_fonts",
+              "title": "Google Fonts",
+              "technical": [],
+              "type": "functional, Fonts"
+            },
+            {
+              "name": "cloudflare",
+              "title": "CloudFlare",
+              "technical": [],
+              "type": "fraud_protection"
+            },
+            {
+              "name": "googletagmanager",
+              "title": "Google Tag Manager",
+              "technical": [],
+              "type": "functional, tag_management"
+            },
+            {
+              "name": "shopify.com",
+              "title": "Shopify.com",
+              "technical": [],
+              "type": "monitoring"
+            }
+          ]
+        },
+        {
+          "name": "analytics",
+          "layout": "category",
+          "vendors": [
+            {
+              "name": "google_analytics",
+              "title": "Google Analytics 4",
+              "technical": [],
+              "type": "analytics"
+            },
+            {
+              "name": "hotjar",
+              "title": "Hotjar",
+              "technical": [],
+              "type": "session_recording, monitoring, analytics"
+            }
+          ]
+        },
+        {
+          "name": "targeted_ads",
+          "layout": "category",
+          "vendors": [
+            {
+              "name": "google_ads",
+              "title": "Google Advertising Products",
+              "technical": [],
+              "type": "advertising, analytics"
+            },
+            {
+              "name": "youtube",
+              "title": "YouTube",
+              "technical": [],
+              "type": "advertising, embeds"
+            },
+            {
+              "name": "facebook_pixel",
+              "title": "Facebook Pixel",
+              "technical": [],
+              "type": "retargeting, conversion_tracking"
+            },
+            {
+              "name": "microsoft",
+              "title": "Microsoft Advertising",
+              "technical": [],
+              "type": "advertising"
+            },
+            {
+              "name": "stackadapt",
+              "title": "Stackadapt",
+              "technical": [],
+              "type": "advertising"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "6913a57eb48e4a03c7b9c9ed",
+      "name": "CA-QC FR",
+      "title": "CA-QC FR",
+      "language": "fr",
+      "country": [
+        "CA"
+      ],
+      "subdivision": [
+        "CA-QC"
+      ],
+      "regulation": "loi25",
+      "published": true,
+      "isLive": true,
+      "googleConsentMode": {
+        "display": true,
+        "displayIllustrations": false,
+        "position": "second",
+        "ads_data_redaction": false,
+        "url_passthrough": false
+      },
+      "settings": {
+        "displayMode": "show",
+        "consentMode": "opt_in",
+        "hideAxeptioButton": true
+      },
+      "steps": [
+        {
+          "name": "welcome",
+          "layout": "welcome",
+          "vendors": []
+        },
+        {
+          "name": "info",
+          "layout": "info",
+          "vendors": [
+            {
+              "name": "google_fonts",
+              "title": "Google Fonts",
+              "technical": [],
+              "type": "functional, Fonts"
+            },
+            {
+              "name": "cloudflare",
+              "title": "CloudFlare",
+              "technical": [],
+              "type": "fraud_protection"
+            },
+            {
+              "name": "googletagmanager",
+              "title": "Google Tag Manager",
+              "technical": [],
+              "type": "functional, tag_management"
+            },
+            {
+              "name": "shopify.com",
+              "title": "Shopify.com",
+              "technical": [],
+              "type": "monitoring"
+            }
+          ]
+        },
+        {
+          "name": "analytics",
+          "layout": "category",
+          "vendors": [
+            {
+              "name": "google_analytics",
+              "title": "Google Analytics 4",
+              "technical": [],
+              "type": "analytics"
+            },
+            {
+              "name": "hotjar",
+              "title": "Hotjar",
+              "technical": [],
+              "type": "session_recording, monitoring, analytics"
+            }
+          ]
+        },
+        {
+          "name": "targeted_ads",
+          "layout": "category",
+          "vendors": [
+            {
+              "name": "google_ads",
+              "title": "Google Advertising Products",
+              "technical": [],
+              "type": "advertising, analytics"
+            },
+            {
+              "name": "youtube",
+              "title": "YouTube",
+              "technical": [],
+              "type": "advertising, embeds"
+            },
+            {
+              "name": "facebook_pixel",
+              "title": "Facebook Pixel",
+              "technical": [],
+              "type": "retargeting, conversion_tracking"
+            },
+            {
+              "name": "microsoft",
+              "title": "Microsoft Advertising",
+              "technical": [],
+              "type": "advertising"
+            },
+            {
+              "name": "stackadapt",
+              "title": "Stackadapt",
+              "technical": [],
+              "type": "advertising"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "6913a674b1b71620d7b06fb7",
+      "name": "EN-US et fallback",
+      "title": "EN-US et fallback",
+      "language": "en",
+      "country": [
+        "US",
+        "CA"
+      ],
+      "subdivision": null,
+      "regulation": "ccpa",
+      "published": true,
+      "isLive": true,
+      "googleConsentMode": {
+        "display": true,
+        "displayIllustrations": false,
+        "position": "second",
+        "ads_data_redaction": false,
+        "url_passthrough": false
+      },
+      "settings": {
+        "displayMode": "show",
+        "consentMode": "opt_in",
+        "hideAxeptioButton": false
+      },
+      "steps": [
+        {
+          "name": "welcome",
+          "layout": "welcome",
+          "vendors": []
+        },
+        {
+          "name": "info",
+          "layout": "info",
+          "vendors": [
+            {
+              "name": "google_fonts",
+              "title": "Google Fonts",
+              "technical": [],
+              "type": "functional, Fonts"
+            },
+            {
+              "name": "cloudflare",
+              "title": "CloudFlare",
+              "technical": [],
+              "type": "fraud_protection"
+            },
+            {
+              "name": "googletagmanager",
+              "title": "Google Tag Manager",
+              "technical": [],
+              "type": "functional, tag_management"
+            },
+            {
+              "name": "shopify.com",
+              "title": "Shopify.com",
+              "technical": [],
+              "type": "monitoring"
+            }
+          ]
+        },
+        {
+          "name": "analytics",
+          "layout": "category",
+          "vendors": [
+            {
+              "name": "google_analytics",
+              "title": "Google Analytics 4",
+              "technical": [],
+              "type": "analytics"
+            },
+            {
+              "name": "hotjar",
+              "title": "Hotjar",
+              "technical": [],
+              "type": "session_recording, monitoring, analytics"
+            }
+          ]
+        },
+        {
+          "name": "targeted_ads",
+          "layout": "category",
+          "vendors": [
+            {
+              "name": "google_ads",
+              "title": "Google Advertising Products",
+              "technical": [],
+              "type": "advertising, analytics"
+            },
+            {
+              "name": "youtube",
+              "title": "YouTube",
+              "technical": [],
+              "type": "advertising, embeds"
+            },
+            {
+              "name": "facebook_pixel",
+              "title": "Facebook Pixel",
+              "technical": [],
+              "type": "retargeting, conversion_tracking"
+            },
+            {
+              "name": "microsoft",
+              "title": "Microsoft Advertising",
+              "technical": [],
+              "type": "advertising"
+            },
+            {
+              "name": "stackadapt",
+              "title": "Stackadapt",
+              "technical": [],
+              "type": "advertising"
+            },
+            {
+              "name": "chatgpt_pixel",
+              "title": "ChatGPT Pixel",
+              "technical": [],
+              "type": "advertising, conversion_tracking"
+            },
+            {
+              "name": "linkedin",
+              "title": "Linkedin",
+              "technical": [],
+              "type": "social_networks"
+            },
+            {
+              "name": "reddit",
+              "title": "Reddit",
+              "technical": [],
+              "type": "conversion_tracking"
+            },
+            {
+              "name": "mntn",
+              "title": "Mntn",
+              "technical": [],
+              "type": "advertising"
+            },
+            {
+              "name": "tiktok",
+              "title": "TikTok",
+              "technical": [],
+              "type": "social_networks"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "69c2ee3bae821a6127694272",
+      "name": "UK EN",
+      "title": "UK EN",
+      "language": "en",
+      "country": [
+        "GB"
+      ],
+      "subdivision": null,
+      "regulation": "uk_gdpr",
+      "published": true,
+      "isLive": true,
+      "googleConsentMode": {
+        "display": true,
+        "displayIllustrations": false,
+        "position": "second",
+        "ads_data_redaction": false,
+        "url_passthrough": false
+      },
+      "settings": {
+        "displayMode": "show",
+        "consentMode": "opt_in",
+        "hideAxeptioButton": true
+      },
+      "steps": [
+        {
+          "name": "welcome",
+          "layout": "welcome",
+          "vendors": []
+        },
+        {
+          "name": "info",
+          "layout": "info",
+          "vendors": [
+            {
+              "name": "google_fonts",
+              "title": "Google Fonts",
+              "technical": [],
+              "type": "functional, Fonts"
+            },
+            {
+              "name": "cloudflare",
+              "title": "CloudFlare",
+              "technical": [],
+              "type": "fraud_protection"
+            },
+            {
+              "name": "googletagmanager",
+              "title": "Google Tag Manager",
+              "technical": [],
+              "type": "functional, tag_management"
+            },
+            {
+              "name": "shopify.com",
+              "title": "Shopify.com",
+              "technical": [],
+              "type": "monitoring"
+            }
+          ]
+        },
+        {
+          "name": "analytics",
+          "layout": "category",
+          "vendors": [
+            {
+              "name": "google_analytics",
+              "title": "Google Analytics 4",
+              "technical": [],
+              "type": "analytics"
+            },
+            {
+              "name": "hotjar",
+              "title": "Hotjar",
+              "technical": [],
+              "type": "session_recording, monitoring, analytics"
+            }
+          ]
+        },
+        {
+          "name": "targeted_ads",
+          "layout": "category",
+          "vendors": [
+            {
+              "name": "google_ads",
+              "title": "Google Advertising Products",
+              "technical": [],
+              "type": "advertising, analytics"
+            },
+            {
+              "name": "youtube",
+              "title": "YouTube",
+              "technical": [],
+              "type": "advertising, embeds"
+            },
+            {
+              "name": "facebook_pixel",
+              "title": "Facebook Pixel",
+              "technical": [],
+              "type": "retargeting, conversion_tracking"
+            },
+            {
+              "name": "microsoft",
+              "title": "Microsoft Advertising",
+              "technical": [],
+              "type": "advertising"
+            },
+            {
+              "name": "stackadapt",
+              "title": "Stackadapt",
+              "technical": [],
+              "type": "advertising"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "6a3362f359acc4e5222b862e",
+      "name": "EU EN",
+      "title": "EU EN",
+      "language": "en",
+      "country": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK",
+        "IS",
+        "LI",
+        "NO",
+        "GB",
+        "CH"
+      ],
+      "subdivision": null,
+      "regulation": "gpdr",
+      "published": true,
+      "isLive": true,
+      "googleConsentMode": {
+        "display": true,
+        "displayIllustrations": false,
+        "position": "second",
+        "ads_data_redaction": false,
+        "url_passthrough": false
+      },
+      "settings": {
+        "displayMode": "show",
+        "consentMode": "opt_in",
+        "hideAxeptioButton": true
+      },
+      "steps": [
+        {
+          "name": "welcome",
+          "layout": "welcome",
+          "vendors": []
+        },
+        {
+          "name": "info",
+          "layout": "info",
+          "vendors": [
+            {
+              "name": "google_fonts",
+              "title": "Google Fonts",
+              "technical": [],
+              "type": "functional, Fonts"
+            },
+            {
+              "name": "cloudflare",
+              "title": "CloudFlare",
+              "technical": [],
+              "type": "fraud_protection"
+            },
+            {
+              "name": "googletagmanager",
+              "title": "Google Tag Manager",
+              "technical": [],
+              "type": "functional, tag_management"
+            },
+            {
+              "name": "shopify.com",
+              "title": "Shopify.com",
+              "technical": [],
+              "type": "monitoring"
+            }
+          ]
+        },
+        {
+          "name": "analytics",
+          "layout": "category",
+          "vendors": [
+            {
+              "name": "google_analytics",
+              "title": "Google Analytics 4",
+              "technical": [],
+              "type": "analytics"
+            },
+            {
+              "name": "hotjar",
+              "title": "Hotjar",
+              "technical": [],
+              "type": "session_recording, monitoring, analytics"
+            }
+          ]
+        },
+        {
+          "name": "targeted_ads",
+          "layout": "category",
+          "vendors": [
+            {
+              "name": "google_ads",
+              "title": "Google Advertising Products",
+              "technical": [],
+              "type": "advertising, analytics"
+            },
+            {
+              "name": "youtube",
+              "title": "YouTube",
+              "technical": [],
+              "type": "advertising, embeds"
+            },
+            {
+              "name": "facebook_pixel",
+              "title": "Facebook Pixel",
+              "technical": [],
+              "type": "retargeting, conversion_tracking"
+            },
+            {
+              "name": "microsoft",
+              "title": "Microsoft Advertising",
+              "technical": [],
+              "type": "advertising"
+            },
+            {
+              "name": "stackadapt",
+              "title": "Stackadapt",
+              "technical": [],
+              "type": "advertising"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "6a33633e59acc4e5222b8630",
+      "name": "EU FR",
+      "title": "EU FR",
+      "language": "fr",
+      "country": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK",
+        "IS",
+        "LI",
+        "NO",
+        "GB",
+        "CH"
+      ],
+      "subdivision": null,
+      "regulation": "gpdr",
+      "published": true,
+      "isLive": true,
+      "googleConsentMode": {
+        "display": true,
+        "displayIllustrations": false,
+        "position": "second",
+        "ads_data_redaction": false,
+        "url_passthrough": false
+      },
+      "settings": {
+        "displayMode": "show",
+        "consentMode": "opt_in",
+        "hideAxeptioButton": true
+      },
+      "steps": [
+        {
+          "name": "welcome",
+          "layout": "welcome",
+          "vendors": []
+        },
+        {
+          "name": "info",
+          "layout": "info",
+          "vendors": [
+            {
+              "name": "google_fonts",
+              "title": "Google Fonts",
+              "technical": [],
+              "type": "functional, Fonts"
+            },
+            {
+              "name": "cloudflare",
+              "title": "CloudFlare",
+              "technical": [],
+              "type": "fraud_protection"
+            },
+            {
+              "name": "googletagmanager",
+              "title": "Google Tag Manager",
+              "technical": [],
+              "type": "functional, tag_management"
+            },
+            {
+              "name": "shopify.com",
+              "title": "Shopify.com",
+              "technical": [],
+              "type": "monitoring"
+            }
+          ]
+        },
+        {
+          "name": "analytics",
+          "layout": "category",
+          "vendors": [
+            {
+              "name": "google_analytics",
+              "title": "Google Analytics 4",
+              "technical": [],
+              "type": "analytics"
+            },
+            {
+              "name": "hotjar",
+              "title": "Hotjar",
+              "technical": [],
+              "type": "session_recording, monitoring, analytics"
+            }
+          ]
+        },
+        {
+          "name": "targeted_ads",
+          "layout": "category",
+          "vendors": [
+            {
+              "name": "google_ads",
+              "title": "Google Advertising Products",
+              "technical": [],
+              "type": "advertising, analytics"
+            },
+            {
+              "name": "youtube",
+              "title": "YouTube",
+              "technical": [],
+              "type": "advertising, embeds"
+            },
+            {
+              "name": "facebook_pixel",
+              "title": "Facebook Pixel",
+              "technical": [],
+              "type": "retargeting, conversion_tracking"
+            },
+            {
+              "name": "microsoft",
+              "title": "Microsoft Advertising",
+              "technical": [],
+              "type": "advertising"
+            },
+            {
+              "name": "stackadapt",
+              "title": "Stackadapt",
+              "technical": [],
+              "type": "advertising"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
