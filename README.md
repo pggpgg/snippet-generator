@@ -67,7 +67,7 @@ languages, vendors, the Consent Mode step), then writes only what differs from t
 npm install
 npx playwright install chromium   # once
 npm run serve          # http://localhost:4173
-npm test               # Playwright: the spec's acceptance tests, every audit rule, copy, URL state, UI, drift check
+npm test               # Playwright: acceptance tests, audit rules, generated code run on a test page, copy, URL state, UI, drift check
 npm run sdk:check      # compare the live sdk.js and tcf/sdk.js with sdk-snapshot.json (needs static.axept.io)
 npm run sdk:snapshot   # refresh the snapshot, after updating index.html
 ```
@@ -92,6 +92,12 @@ SPEC.md             the build spec
 - The facts in `SPEC.md` (sections 2 to 4) were checked against `sdk.js` build
   2026-10-28T21:27:12.815Z and `tcf/sdk.js` 1.5.0. The settings catalogue in `index.html` mirrors
   them, and `tests/sdk-drift.spec.js` fails if it stops matching `sdk-snapshot.json`.
+- `tests/run.spec.js` runs the generated code on a test page with a stand-in `sdk.js` (settings,
+  dataLayer order, blocked tools, footer link, cross-domain links, CSP). The Consent Mode output
+  was also run once with the live `sdk.js` on an internal test project: in both modes the defaults
+  reach the dataLayer first and in order, and the SDK adds none of its own. One difference to
+  expect in Tag Assistant: with the defaults in `axeptioSettings`, `sdk.js` adds
+  `wait_for_update: 500` to every entry, the granted region one included.
 - **SDK drift check** (`.github/workflows/sdk-drift.yml`) runs every Monday: it downloads both SDKs,
   re-extracts the settings class field list with its defaults, the keys `tcf/sdk.js` destructures,
   and a few behaviour anchors, and opens an issue labelled `sdk-drift` if anything moved. To update
