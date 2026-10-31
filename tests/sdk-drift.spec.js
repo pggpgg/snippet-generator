@@ -129,7 +129,7 @@ test.describe('SDK drift check (scripts/sdk-drift.mjs)', () => {
     );
     const md = driftReport(snapshot, after, result);
     for (const word of ['shinyNewSetting', 'signalEssential', '190 became 395', 'metadataPrefix', 'Appendix A', 'npm run sdk:snapshot']) expect(md).toContain(word);
-    expect(md).not.toMatch(/—/);
+    expect(md).not.toMatch(/\u2014/);
     expect(driftReport(snapshot, snapshot, compareSnapshots(snapshot, snapshot))).toContain('No difference');
   });
 });

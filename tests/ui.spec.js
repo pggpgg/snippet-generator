@@ -112,9 +112,9 @@ test.describe('page', () => {
     await page.click('[data-act=region-add][data-arg="google.extra.0|extra-0"]');
     await page.check('input[data-bind="google.redaction"]');
     await page.locator('input[data-bind="google.wait"]').fill('800');
-    const code = await snippet(page, 'gcm').innerText();
-    expect(code).toContain("wait_for_update: 800, region: ['CA-QC']");
-    expect(code).toContain("gtag('set', 'ads_data_redaction', true);");
+    // Renders are batched: let the assertions retry until the last input lands.
+    await expect(snippet(page, 'gcm')).toContainText("wait_for_update: 800, region: ['CA-QC']");
+    await expect(snippet(page, 'gcm')).toContainText("gtag('set', 'ads_data_redaction', true);");
     await page.selectOption('select[data-bind="google.fallback.analytics_storage"]', 'granted');
     await expect(snippet(page, 'gcm')).toContainText("{ analytics_storage: 'granted', ad_storage: 'denied'");
   });
@@ -236,7 +236,7 @@ test.describe('page', () => {
     expect(htmlBody).toMatch(/^<!doctype html>/);
     expect(htmlBody).toContain('Prepared for you by Pierre');
     expect(htmlBody).toContain('<span class="tk-p">clientId</span>');
-    expect(htmlBody).not.toMatch(/—/);
+    expect(htmlBody).not.toMatch(/\u2014/);
 
     const client = await context.newPage();
     await openApp(client, link.slice(link.indexOf('#')));

@@ -5,7 +5,7 @@ import { expect, test } from '@playwright/test';
 import { AUDIT_7, CA_EXCEPT_QC, HOTJAR_TAG, MACKAGE_ID, fixture, openApp, sg } from './helpers.js';
 
 const mackage = fixture('mackage.json');
-const DASHES = /[—―]|\s–\s/; // em dash, horizontal bar, spaced en dash
+const DASHES = /[\u2014\u2015]|\s\u2013\s/; // em dash, horizontal bar, spaced en dash
 const BROKEN = /undefined|NaN|\[object|\bnull\b(?!,)|\s{2,}/;
 
 test.describe('copy (FR / EN)', () => {
@@ -185,7 +185,7 @@ test.describe('copy (FR / EN)', () => {
 
   test('the page source itself never uses an em dash, eval or new Function', () => {
     const html = readFileSync(new URL('../index.html', import.meta.url), 'utf8');
-    expect(html).not.toMatch(/—/);
+    expect(html).not.toMatch(/\u2014/);
     const logic = html.slice(html.indexOf("'use strict';"), html.lastIndexOf('</script>'));
     expect(logic).not.toMatch(/\beval\s*\(/);
     expect(logic).not.toMatch(/new Function\s*\(/);
